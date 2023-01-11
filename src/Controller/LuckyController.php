@@ -7,6 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class LuckyController extends AbstractController
 {
+    
     public function number(): Response
     {
         $number = random_int(0, 100);
